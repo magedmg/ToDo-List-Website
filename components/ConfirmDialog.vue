@@ -7,7 +7,7 @@
         </div>
         <div class="mt-4 text-center">
           <p data-cy="confirm-dialog-text" class="mb-4 text-lg">
-            Apakah anda yakin menghapus {{ selectedItem.type }} <br />
+            Are you sure you want to delete {{ selectedItem.type }} <br />
             <span class="font-bold">{{
               selectedItem.title?.length > 20
                 ? `"${selectedItem.title.slice(0, 20)}..."`
@@ -21,14 +21,14 @@
               class="px-6 py-2 rounded-full btn-cancel"
               @click="toggleDialog(false)"
             >
-              Batal
+              No
             </button>
             <button
               data-cy="modal-delete-confirm-button"
               class="px-6 py-2 rounded-full btn-confirm"
               @click="removeItem"
             >
-              Hapus
+              Yes
             </button>
           </div>
         </div>

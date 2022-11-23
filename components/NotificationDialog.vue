@@ -5,7 +5,7 @@
         <div class="flex gap-2">
           <span data-cy="modal-information-icon" class="ml-1 icon_info"></span>
           <p data-cy="modal-information-text" class="text-md">
-            {{ deletedItem }} berhasil dihapus!
+            {{ deletedItem }} deleted!
           </p>
         </div>
       </div>

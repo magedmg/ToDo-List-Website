@@ -18,7 +18,7 @@
             data-cy="todo-input-dialog-title"
             class="text-2xl font-semibold text-black"
           >
-            {{ inputMode === "edit" ? "Edit Item" : "Tambah List Item" }}
+            {{ inputMode === "edit" ? "Edit Item" : "Add Item" }}
           </h3>
           <svg
             data-cy="todo-input-dialog-close-button"
@@ -43,7 +43,7 @@
             <label
               data-cy="todo-input-title-label"
               class="mb-4 text-lg text-black font-semibold"
-              >NAMA LIST ITEM</label
+              >Title</label
             >
           </div>
           <div data-cy="modal-add-name-input" class="pt-2 pb-3">
@@ -51,14 +51,14 @@
               v-model="input.title"
               class="h-4/5 w-full p-2 bg-inherit border-2 border-solid border-gray-300 rounded-md text-md text-black focus:outline-none focus:border-blue-300"
               type="text"
-              placeholder="Tambahkan nama list item"
+              placeholder="type here..."
             />
           </div>
           <div class="mt-4">
             <label
               data-cy="todo-input-priority-label"
               class="mb-4 text-lg text-black font-semibold"
-              >PRIORITAS</label
+              >SUBJECT</label
             >
           </div>
           <div>
@@ -78,7 +78,7 @@
             class="px-6 py-2 text-white rounded-full submit-button"
             @click="onClickSubmit"
           >
-            Simpan
+            Save
           </button>
         </v-card-actions>
       </v-card>

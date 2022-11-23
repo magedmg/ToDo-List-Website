@@ -2,7 +2,7 @@
   <div class="home">
     <div class="mt-10 mx-56">
       <div class="flex justify-between">
-        <h2 data-cy="activity-title" class="text-4xl font-bold">Activity</h2>
+        <h2 data-cy="activity-title" class="text-4xl font-bold">Activities</h2>
         <add-button
           data-cy="activity-add-button"
           :clickEvent="addNewActivity"

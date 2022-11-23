@@ -70,11 +70,11 @@ export default {
       isOptionsExpanded: false,
       selectedOption: { color: "#00a790", title: "Normal", value: "normal" },
       options: [
-        { color: "#ed4c5c", title: "Very High", value: "very-high" },
-        { color: "#ffce31", title: "High", value: "high" },
-        { color: "#00a790", title: "Normal", value: "normal" },
-        { color: "#43c4e3", title: "Low", value: "low" },
-        { color: "#b01aff", title: "Very Low", value: "very-low" },
+        { color: "#ed4c5c", title: "Maths", value: "very-high" },
+        { color: "#ffce31", title: "English", value: "high" },
+        { color: "#00a790", title: "Digitech", value: "normal" },
+        { color: "#43c4e3", title: "Chemistry", value: "low" },
+        { color: "#b01aff", title: "Media Studies", value: "very-low" },
       ],
     };
   },

@@ -50,13 +50,13 @@ export default {
   data() {
     return {
       isOptionsExpanded: false,
-      selectedOption: { title: "Terbaru", value: "newest" },
+      selectedOption: { title: "Newest", value: "newest" },
       options: [
-        { title: "Terbaru", value: "newest" },
-        { title: "Terlama", value: "oldest" },
+        { title: "Newest", value: "newest" },
+        { title: "Oldest", value: "oldest" },
         { title: "A-Z", value: "ascending" },
         { title: "Z-A", value: "descending" },
-        { title: "Belum Selesai", value: "not-done" },
+        { title: "Completion Status", value: "not-done" },
       ],
     };
   },

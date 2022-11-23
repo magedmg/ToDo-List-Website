@@ -4,7 +4,7 @@
     @click="clickEvent"
   >
     <span class="icon-plus"></span>
-    Tambah
+    Add
   </button>
 </template>
 
@@ -21,6 +21,6 @@ export default {
 @import "@/assets/icons/icons";
 
 .add-button {
-  background: #16abf8;
+  background:   #16abf8 ;
 }
 </style>
